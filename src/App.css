@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  color: salmon;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: xx-large;
+  border: none;
+  outline: none;
+  background: rgb(215, 233, 248);
+  color: rgb(108, 152, 187);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 18px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: lightblue;
+  color: rgb(22, 65, 66);
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(22, 65, 66);
+  color: lightblue;
+}
+
+ul {
+  list-style: none;
+  font-size: xx-large;
+  margin: 0;
+  padding:0;
+}
+
+ul input {
+  height: 20px;
+  margin: 0;
+}
+
+.filter {
+  border: 1px solid salmon;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  color: salmon;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.features button{
+  border: 1px solid salmon;
+  background-color: white;
+  color: salmon;
+}
+
+.features button:hover {
+  color: white;
+  background: salmon;
+}
+
+.features input {
+  height: 20px;
+}
+
+.delete {
+  background: white;
+  border: 1px solid red
+} 
+
+.delete:hover {
+  background: red;
+  color: white;
+}
+
+.active {
+  color: rgb(108, 152, 187);;
+}
